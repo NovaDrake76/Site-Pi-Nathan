@@ -1,0 +1,126 @@
+table {
+  font-family: "Roboto", sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 5em;
+  border-collapse: separate;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 0.7em;
+  overflow: hidden;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+label {
+  margin-left: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="submit"] {
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.sublistsearch input[type="text"] {
+  border: 1px solid #707070;
+  width: 50%;
+  padding: 1em;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 0.7em;
+  flex-grow: 1;
+  margin-top: 2em;
+}
+
+.procurarcity input[type="submit"] {
+  background-color: rgb(84, 141, 173);
+  color: white;
+  height: 30px;
+}
+
+.contenttabel {
+  width: 53.4em;
+  height: 58.3em;
+  background-color: white;
+  margin-left: 16.2em;
+  margin-right: 16em;
+  border-radius: 0.7em;
+  margin-bottom: 3.5em;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+}
+
+.tablehead {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.headt {
+  display: table-column;
+}
+
+.tablehead p {
+  margin-left: 2em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.toplist {
+  background-color: rgb(84, 141, 173);
+}
+
+.sublist {
+  margin-top: 1em;
+}
+
+.procurarcity {
+  margin-top: 6em;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.sublistsearch p {
+  font-family: "Roboto", sans-serif;
+  color: #707070;
+  font-size: 15px;
+  margin-left: 4.3em;
+  display: inline-block;
+}
+
+.sublistsearch {
+  margin-top: 2em;
+  justify-content: center;
+}
+.sublistsearch h2 {
+  display: inline;
+}
+
+.sublistsearch button {
+  margin-left: 5em;
+  border-radius: 0.4em;
+  background-color: rgb(84, 141, 173);
+  color: white;
+  height: 30px;
+}
+
+.atimg {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.atimg img {
+  margin-right: 5px;
+}

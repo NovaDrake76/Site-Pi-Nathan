@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/styledtabel.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/agt_home.ico" />
+
+    <title>MeuQuarto</title>
+  </head>
+  <body>
+    <div class="left">
+      <ul>
+        <li><a href="#">Perfil</a></li>
+        <li><a href="#">Minhas Residências</a></li>
+        <li><a href="#">Anunciar Residência</a></li>
+        <li><a href="#">Alterar Preferências</a></li>
+        <li><a href="#">Mensagens</a></li>
+        <li><a href="#">Sair</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="#">Caicó</a></li>
+        <li><a href="#">Natal</a></li>
+        <li><a href="#">Jucurutu</a></li>
+        <li><a href="#">Acari</a></li>
+        <li><a href="#">Patos</a></li>
+        <li><a href="#">Campina Grande</a></li>
+        <li><a href="#">João Pessoa</a></li>
+        <li><a href="#">Recife</a></li>
+        <li><a href="#">Região Sudeste</a></li>
+        <li><a href="#">Região Sul</a></li>
+        <li><a href="#">Região Centro-Oeste</a></li>
+        <li><a href="#">Região Norte</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <ul>
+        <div class="search">
+          <input
+            type="text"
+            placeholder="Procure por uma cidade..."
+            name="searcher"
+          />
+          <button type="submit" onclick="window.location.href='tabel.html';">
+            Procurar
+          </button>
+        </div>
+
+        <li><a href="index.html">Inicial</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Anuncie</a></li>
+        <li><a href="#">Redes Sociais</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Cadastre-se</a></li>
+      </ul>
+    </div>
+    <div class="foot">
+      <ul>
+        <li><a href="#">Servidor</a></li>
+        <li><a href="#">Atualizações</a></li>
+        <li><a href="#">Administração</a></li>
+        <li><a href="#">Desenvolvimento</a></li>
+        <li><a href="#">Trabalhe Conosco</a></li>
+      </ul>
+    </div>
+    <div class="contenttabel">
+      <div class="tablehead">
+        <div class="headt">
+          <h2>Recomendados por nós</h2>
+          <p>Filtramos esses resultados a partir das suas preferências</p>
+          <br />
+          <label for="casas">Selecione a partir de:</label>
+          <select name="casas" id="casas">
+            <option value="preco">Preço</option>
+            <option value="avaliacoes">Avaliações</option>
+            <option value="proximidade">Próximo a serviços</option>
+            <br />
+            <input type="submit" value="Filtrar" />
+          </select>
+        </div>
+        <img src="/images/filtro.jpg" alt="Lista" />
+      </div>
+
+      <table cellspacing="0">
+        <tr class="toplist">
+          <th>Residência</th>
+          <th>Bairro</th>
+          <th>Faixa de Preço</th>
+        </tr>
+        <tr>
+          <td>Pensionato da Tia</td>
+          <td>Castelo Branco</td>
+          <td>R$250 a R$400</td>
+        </tr>
+        <tr>
+          <td>Apartamento Rio Verde</td>
+          <td>Centro</td>
+          <td>R$450 a R$600</td>
+        </tr>
+        <tr>
+          <td>Aluguéis & Hotel</td>
+          <td>Castelo Branco</td>
+          <td>R$550 a R$600</td>
+        </tr>
+      </table>
+      <div class="sublist">
+        <div class="sublistsearch">
+          <h2>Não achou o que estava procurando?</h2>
+          <div class="atimg">
+            <div class="procurarcity">
+              <label for="City"></label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Procure por cidade ou bairro"
+              />
+              <input type="submit" value="Procurar" />
+              <br />
+              <p>Exemplo: "Natal"</p>
+            </div>
+
+            <img
+              src="/images/nenendi.jpg"
+              alt="homem com duvida"
+              width="400px"
+              height="350px"
+            />
+          </div>
+
+          <form action="/HTML/index.html" method="GET" target="_blank">
+            <button type="submit">Me leve para a página inicial!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
